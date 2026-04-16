@@ -1,0 +1,18 @@
+{
+  "resourceType": "Patient",
+  "identifier": [
+    {
+      "value": "PAT001"
+    }
+  ],
+  "name": [
+    {
+      "family": "SMITH",
+      "given": [
+        "JOHN"
+      ]
+    }
+  ],
+  "gender": "male",
+  "birthDate": "1980-03-15"
+}

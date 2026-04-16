@@ -1,0 +1,31 @@
+{
+  "resourceType": "Observation",
+  "status": "final",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "vital-signs",
+          "display": "Vital Signs"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "2345-7",
+        "display": "Glucose"
+      }
+    ]
+  },
+  "effectiveDateTime": "2026-04-02T19:31:17.196452Z",
+  "valueQuantity": {
+    "value": 95.0,
+    "unit": "mg/dL",
+    "system": "http://unitsofmeasure.org",
+    "code": "mg/dL"
+  }
+}
